@@ -12,6 +12,7 @@ public class Example {
         System.out.println("Hello!");
         System.out.println("Hello2!");
         System.out.println("Hello3!");
+        System.out.println("Hello4!");
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("context.xml");
         Hideme hideme = (Hideme) ctx.getBean("hideme");
