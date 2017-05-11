@@ -10,6 +10,7 @@ public class Example {
     @Scheduled(fixedRate = 2000000)
     private void myMethod() {
         System.out.println("Hello!");
+        System.out.println("Hello2!");
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("context.xml");
         Hideme hideme = (Hideme) ctx.getBean("hideme");
